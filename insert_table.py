@@ -163,8 +163,8 @@ if __name__ == '__main__':
 
     # Step 6: Insert customers
     customers = [
-        ('Alice', 'Johnson', 'alice.johnson@example.com'),
-        ('Bob', 'Smith', 'bob.smith@example.com'),
+        ('Angeline', 'Ivyne', 'ivyneangeline@gmail.com'),
+        ('Abel', 'Sifuna', 'abelsifuna155@gmail.com'),
     ]
     insert_customer(customers)
 
