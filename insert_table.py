@@ -105,8 +105,8 @@ def insert_order_line(order_line_list):
     """Insert order lines into the 'order_line' table."""
     query = "INSERT INTO order_line (order_id, book_id, quantity, price) VALUES (%s, %s, %s, %s)"
     insert_data(query, order_line_list, "order lines")
+    
 
-# Main Block to Insert Data
 if __name__ == '__main__':
     # Insert countries, order statuses, shipping methods, languages
     countries = [
